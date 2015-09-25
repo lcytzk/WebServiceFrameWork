@@ -1,0 +1,1 @@
+java -jar -Djdbc.properties=$1 facade-1.0.jar

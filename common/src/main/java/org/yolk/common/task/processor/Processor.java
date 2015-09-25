@@ -5,7 +5,7 @@
 
 package org.yolk.common.task.processor;
 
-import com.yztz.stockmarket.common.task.Task;
+import org.yolk.common.task.Task;
 
 /**
  * @author Liang Chenye
