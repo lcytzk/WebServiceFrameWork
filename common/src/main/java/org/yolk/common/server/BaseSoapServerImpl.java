@@ -1,8 +1,3 @@
-/**
- * Yztz.cn Inc.
- * Copyright (c) 2013-2015 All Rights Reserved.
- */
-
 package org.yolk.common.server;
 
 import java.util.HashMap;

@@ -3,36 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="2bbdba4a-9205-4f46-9f73-91d32c79a1ec" name="Default" comment="add files">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseRestServer.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseRestServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/BaseScheduledTask.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/BaseScheduledTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseServer.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/BaseService.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/BaseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapServer.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapServer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapServerImpl.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapServerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/BaseSoapService.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/BaseSoapService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/CacheService.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/CacheService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/impl/MemcachedService.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/impl/MemcachedService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/task/processor/Processor.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/task/processor/Processor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/restful/Request.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/restful/Request.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/restful/Response.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/restful/Response.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/restful/RestfulClient.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/restful/RestfulClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/ScheduleTask.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/ScheduleTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/client/ServiceClient.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/client/ServiceClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/client/ServiceClientInfo.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/client/ServiceClientInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/task/Task.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/task/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/task/factory/TaskFactory.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/task/factory/TaskFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/TaskScheduler.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/TaskScheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/impl/TaskSchedulerImpl.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/impl/TaskSchedulerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/util/TaskSchedulerUtil.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/schedule/util/TaskSchedulerUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskservice/src/main/java/org/yolk/taskservice/service/TaskService.java" afterPath="$PROJECT_DIR$/taskservice/src/main/java/org/yolk/taskservice/service/TaskService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskservice/src/main/java/org/yolk/taskservice/service/impl/TaskServiceImpl.java" afterPath="$PROJECT_DIR$/taskservice/src/main/java/org/yolk/taskservice/service/impl/TaskServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/threadpool/ThreadPool.java" afterPath="$PROJECT_DIR$/common/src/main/java/org/yolk/common/threadpool/ThreadPool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/common.iml" afterPath="$PROJECT_DIR$/common/common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inttest/inttest.iml" afterPath="$PROJECT_DIR$/inttest/inttest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/pom.xml" afterPath="$PROJECT_DIR$/common/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stocktrade.ipr" afterPath="$PROJECT_DIR$/stocktrade.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stocktrade.iws" afterPath="$PROJECT_DIR$/stocktrade.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskservice/taskservice.iml" afterPath="$PROJECT_DIR$/taskservice/taskservice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unittest/unittest.iml" afterPath="$PROJECT_DIR$/unittest/unittest.iml" />
     </list>
     <ignored path="stocktrade.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -497,11 +469,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseRestServer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseRestServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseRestServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.25862068">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -543,20 +515,19 @@
         <entry file="file://$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapServerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#836#958#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#2565#2566#0" expanded="true" />
-                <element signature="e#2595#2596#0" expanded="true" />
-                <element signature="e#2641#2642#0" expanded="true" />
-                <element signature="e#2679#2680#0" expanded="true" />
-                <element signature="e#2707#2708#0" expanded="true" />
-                <element signature="e#2734#2735#0" expanded="true" />
-                <element signature="e#2771#2772#0" expanded="true" />
-                <element signature="e#2803#2804#0" expanded="true" />
+                <element signature="e#763#885#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#2492#2493#0" expanded="true" />
+                <element signature="e#2522#2523#0" expanded="true" />
+                <element signature="e#2568#2569#0" expanded="true" />
+                <element signature="e#2606#2607#0" expanded="true" />
+                <element signature="e#2634#2635#0" expanded="true" />
+                <element signature="e#2661#2662#0" expanded="true" />
+                <element signature="e#2698#2699#0" expanded="true" />
+                <element signature="e#2730#2731#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -738,11 +709,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemcachedService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MemcachedService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/impl/MemcachedService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25862068">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -970,10 +941,10 @@
         <option value="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/client/ServiceClient.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/BaseSoapService.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/client/ServiceClientInfo.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseRestServer.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapService.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseServer.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapServer.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseRestServer.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapServerImpl.java" />
       </list>
     </option>
@@ -1230,6 +1201,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stocktrade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.yolk.common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stocktrade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.yolk.common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="restful" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
@@ -1257,7 +1264,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
@@ -1713,7 +1720,7 @@
       <workItem from="1443148300754" duration="1501000" />
       <workItem from="1443157810550" duration="1840000" />
       <workItem from="1443166156984" duration="2225000" />
-      <workItem from="1443402850935" duration="15496000" />
+      <workItem from="1443402850935" duration="15756000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1443165800455</created>
@@ -1725,7 +1732,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80030000" />
+    <option name="totallyTimeSpent" value="80290000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2382,14 +2389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseRestServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2404,27 +2403,6 @@
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#836#958#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
-            <element signature="e#2679#2680#0" expanded="true" />
-            <element signature="e#2707#2708#0" expanded="true" />
-            <element signature="e#2734#2735#0" expanded="true" />
-            <element signature="e#2771#2772#0" expanded="true" />
-            <element signature="e#2803#2804#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2447,11 +2425,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/org/yolk/common/service/impl/MemcachedService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25862068">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseSoapServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#763#885#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#2492#2493#0" expanded="true" />
+            <element signature="e#2522#2523#0" expanded="true" />
+            <element signature="e#2568#2569#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+            <element signature="e#2634#2635#0" expanded="true" />
+            <element signature="e#2661#2662#0" expanded="true" />
+            <element signature="e#2698#2699#0" expanded="true" />
+            <element signature="e#2730#2731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/yolk/common/server/BaseRestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25862068">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2461,6 +2467,17 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
