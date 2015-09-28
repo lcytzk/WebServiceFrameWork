@@ -1,4 +1,4 @@
-package org.yolk.common.server;
+package org.yolk.common.server.impl;
 
 import java.util.HashMap;
 import java.util.List;
@@ -7,6 +7,7 @@ import javax.xml.ws.Endpoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
+import org.yolk.common.server.BaseSoapServer;
 import org.yolk.common.service.BaseSoapService;
 
 import com.google.common.collect.Maps;
