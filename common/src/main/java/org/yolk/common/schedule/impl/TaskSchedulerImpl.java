@@ -6,19 +6,28 @@
 package org.yolk.common.schedule.impl;
 
 import org.quartz.SchedulerException;
+import org.quartz.Trigger;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
-import org.springframework.stereotype.Component;
+import org.yolk.common.schedule.ScheduleTask;
+import org.yolk.common.schedule.TaskScheduler;
+import org.yolk.common.schedule.util.TaskSchedulerUtil;
 
 /**
  * @author Liang Chenye
  * @version $Id: SchedulerFactoryBean, v 0.1 2015/9/28 9:32
  */
-@Component
-public class TaskSchedulerImpl extends SchedulerFactoryBean {
+public class TaskSchedulerImpl extends SchedulerFactoryBean implements TaskScheduler {
 
-    public TaskSchedulerImpl() {}
+    // Set properties and triggers.
+    public TaskSchedulerImpl() {
+        setQuartzProperties(TaskSchedulerUtil.getDefaultProperties());
+        setTriggers(new Trigger[0]);
+    }
 
+    // TODO
+    public void scheduleTask(ScheduleTask task) {
 
+    }
 
     @Override
     public void destroy() throws SchedulerException {

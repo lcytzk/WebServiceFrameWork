@@ -1,11 +1,6 @@
-/**
- * Yztz.com Inc.
- * Copyright (c) 2013-2015 All Rights Reserved.
- */
-
 package org.yolk.common.task;
 
-import com.yztz.stockmarket.common.task.processor.Processor;
+import org.yolk.common.task.processor.Processor;
 
 /**
  * @author Liang Chenye

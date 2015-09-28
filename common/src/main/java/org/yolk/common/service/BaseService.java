@@ -1,9 +1,3 @@
-/**
- * Yztz.com Inc.
- * Copyright (c) 2013-2015 All Rights Reserved.
- *
- */
-
 package org.yolk.common.service;
 
 /**
@@ -13,5 +7,7 @@ package org.yolk.common.service;
 
 public interface BaseService {
 
-    String getName();
+    void start();
+
+    void stop();
 }

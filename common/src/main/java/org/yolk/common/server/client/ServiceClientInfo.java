@@ -27,7 +27,6 @@ public class ServiceClientInfo {
         ServiceClientInfo that = (ServiceClientInfo) o;
 
         return !(address != null ? !address.equals(that.address) : that.address != null);
-
     }
 
     @Override

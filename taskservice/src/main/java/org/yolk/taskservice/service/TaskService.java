@@ -5,6 +5,7 @@
 
 package org.yolk.taskservice.service;
 
+import org.yolk.common.service.BaseService;
 import org.yolk.common.task.Task;
 
 /**
@@ -12,7 +13,7 @@ import org.yolk.common.task.Task;
  * @version $Id: TaskService, v 0.1 2015/8/11 13:52
  */
 
-public interface TaskService {
+public interface TaskService extends BaseService {
 
     /**
      * Submit task for executing.

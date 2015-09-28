@@ -1,8 +1,3 @@
-/**
- * Yztz.com Inc.
- * Copyright (c) 2013-2015 All Rights Reserved.
- */
-
 package org.yolk.common.task.processor;
 
 import org.yolk.common.task.Task;

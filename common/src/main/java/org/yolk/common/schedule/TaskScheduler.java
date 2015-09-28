@@ -5,8 +5,6 @@
 
 package org.yolk.common.schedule;
 
-import org.yolk.common.schedule.ScheduleTask;
-
 /**
  * @author Liang Chenye
  * @version $Id: TaskScheduler, v 0.1 2015/9/28 9:39
@@ -15,4 +13,8 @@ import org.yolk.common.schedule.ScheduleTask;
 public interface TaskScheduler {
 
     void scheduleTask(ScheduleTask task);
+
+    void start();
+
+    void stop();
 }

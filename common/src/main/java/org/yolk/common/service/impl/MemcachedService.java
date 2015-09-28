@@ -1,7 +1,3 @@
-/**
- * Yztz.cn Inc.
- * Copyright (c) 2013-2014 All Rights Reserved.
- */
 package org.yolk.common.service.impl;
 
 import net.rubyeye.xmemcached.MemcachedClient;
@@ -15,12 +11,6 @@ import org.slf4j.LoggerFactory;
 
 import org.yolk.common.service.CacheService;
 
-/**
- * Memcached缓存服务
- *
- * @author elliott
- * @version $Id: MemcachedService.java, v 0.1 2014-3-19 下午3:59:23 elliott Exp $
- */
 public class MemcachedService implements CacheService {
 
     private static final Logger logger = LoggerFactory.getLogger(MemcachedService.class);

@@ -10,6 +10,7 @@ package org.yolk.common.service;
  * @version $Id: BaseSoapService, v 0.1 2015/9/28 16:40
  */
 
-public class BaseSoapService {
+public interface BaseSoapService extends BaseService {
 
+    String getName();
 }

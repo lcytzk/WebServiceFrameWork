@@ -25,4 +25,12 @@ public class TaskServiceImpl implements TaskService {
     public void submit(Task task) {
         threadPool.submit(task);
     }
+
+    public void start() {
+
+    }
+
+    public void stop() {
+
+    }
 }
