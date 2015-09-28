@@ -7,6 +7,6 @@ import org.yolk.common.service.BaseService;
  * @version $Id: BaseRestServer, v 0.1 2015/9/28 17:08
  */
 
-public abstract class BaseRestServer implements BaseService {
+public interface BaseRestServer extends BaseService {
 
 }
