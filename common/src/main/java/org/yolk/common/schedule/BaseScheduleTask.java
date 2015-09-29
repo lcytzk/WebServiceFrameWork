@@ -5,7 +5,7 @@ package org.yolk.common.schedule;
  * @version $Id: BaseScheduledTask, v 0.1 2015/6/23 15:19
  */
 
-public abstract class BaseScheduledTask implements ScheduleTask {
+public abstract class BaseScheduleTask implements ScheduleTask {
 
     private boolean stop = true;
 
