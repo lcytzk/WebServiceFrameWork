@@ -6,8 +6,4 @@ package org.yolk.common.service;
  */
 
 public interface BaseService {
-
-    void start();
-
-    void stop();
 }

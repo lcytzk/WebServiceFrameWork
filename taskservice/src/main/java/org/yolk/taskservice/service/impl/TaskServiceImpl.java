@@ -1,7 +1,3 @@
-/**
- * Yztz.com Inc.
- * Copyright (c) 2013-2015 All Rights Reserved.
- */
 package org.yolk.taskservice.service.impl;
 
 import org.springframework.stereotype.Component;
@@ -32,5 +28,9 @@ public class TaskServiceImpl implements TaskService {
 
     public void stop() {
 
+    }
+
+    public String getName() {
+        return this.getClass().toString();
     }
 }

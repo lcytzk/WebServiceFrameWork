@@ -1,11 +1,6 @@
-/**
- * Yztz.com Inc.
- * Copyright (c) 2013-2015 All Rights Reserved.
- */
-
 package org.yolk.taskservice.service;
 
-import org.yolk.common.service.BaseService;
+import org.yolk.common.service.BaseSoapService;
 import org.yolk.common.task.Task;
 
 /**
@@ -13,7 +8,7 @@ import org.yolk.common.task.Task;
  * @version $Id: TaskService, v 0.1 2015/8/11 13:52
  */
 
-public interface TaskService extends BaseService {
+public interface TaskService extends BaseSoapService {
 
     /**
      * Submit task for executing.

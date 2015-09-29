@@ -8,5 +8,4 @@ import org.yolk.common.service.BaseService;
  */
 
 public interface BaseRestServer extends BaseService {
-
 }

@@ -317,28 +317,6 @@
         <root url="jar://C:/repository/com/sun/xml/bind/jaxb-impl/2.1.13/jaxb-impl-2.1.13-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.yztz.services:facade-release:1.0">
-      <CLASSES>
-        <root url="jar://C:/repository/com/yztz/services/facade-release/1.0/facade-release-1.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://C:/repository/com/yztz/services/facade-release/1.0/facade-release-1.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://C:/repository/com/yztz/services/facade-release/1.0/facade-release-1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.yztz.services:facade:1.0">
-      <CLASSES>
-        <root url="jar://C:/repository/com/yztz/services/facade/1.0/facade-1.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://C:/repository/com/yztz/services/facade/1.0/facade-1.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://C:/repository/com/yztz/services/facade/1.0/facade-1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: commons-codec:commons-codec:1.5">
       <CLASSES>
         <root url="jar://C:/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar!/" />

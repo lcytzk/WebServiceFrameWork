@@ -20,11 +20,11 @@ public class BaseSoapServerImpl implements BaseSoapServer {
 
     private static final Logger logger = LoggerFactory.getLogger(BaseSoapServer.class);
 
-    private String baseUrl;
+    private String baseUrl = "http://0.0.0.0";
 
     private List<BaseSoapService> soapServices = Lists.newArrayList();
 
-    private int port;
+    private int port = 8182;
 
     private HashMap<Class, Endpoint> endpoints = Maps.newHashMap();
 
