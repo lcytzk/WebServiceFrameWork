@@ -12,8 +12,6 @@ package org.yolk.common.schedule;
 
 public interface TaskScheduler {
 
-    void scheduleTask(ScheduleTask task);
-
     void start();
 
     void stop();

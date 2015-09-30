@@ -6,8 +6,8 @@ import org.springframework.util.Assert;
 import org.yolk.common.server.BaseSoapServer;
 import org.yolk.common.server.impl.BaseSoapServerImpl;
 
-import com.yolk.common.service.TestBaseSoapService;
-import com.yolk.common.service.TestBaseSoapServiceImpl;
+import com.yolk.common.service.soap.TestBaseSoapService;
+import com.yolk.common.service.soap.TestBaseSoapServiceImpl;
 
 /**
  * @author Liang Chenye
@@ -27,9 +27,7 @@ public class TestBaseSoapServer {
     public void createClient() {
         JaxWsProxyFactoryBean src = new JaxWsProxyFactoryBean();
         src.setServiceClass(TestBaseSoapService.class);
-        //        src.setAddress("http://192.168.14.251:8181/schemeDataService");
         src.setAddress("http://localhost:8182/testBaseSoapService");
-        //        src.setAddress("http://localhost:8181/schemeDataService");
         TestBaseSoapService client = (TestBaseSoapService) src.create();
         Assert.isTrue(client.HelloWorld().equals("Hello World!"));
     }

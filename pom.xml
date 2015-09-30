@@ -9,8 +9,6 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>facade</module>
-        <module>facade-release</module>
         <module>unittest</module>
         <module>inttest</module>
         <module>common</module>
@@ -168,6 +166,12 @@
                 <version>${org.apache.cxf.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.cxf</groupId>
+                <artifactId>cxf-rt-frontend-jaxrs</artifactId>
+                <version>${org.apache.cxf.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>commons-dbcp</groupId>
                 <artifactId>commons-dbcp</artifactId>
                 <version>${common-dbcp.version}</version>
@@ -203,6 +207,11 @@
                 <artifactId>commons-codec</artifactId>
                 <version>1.5</version>
             </dependency>
+            <dependency>
+                <groupId>javax.ws.rs</groupId>
+                <artifactId>javax.ws.rs-api</artifactId>
+                <version>2.0.1</version>
+            </dependency>
 
             <!-- test -->
             <dependency>
@@ -230,7 +239,7 @@
         <org.slf4j.version>1.7.5</org.slf4j.version>
         <org.springframework.version>3.2.2.RELEASE</org.springframework.version>
         <org.mybatis.version>3.2.5</org.mybatis.version>
-        <org.apache.cxf.version>2.7.5</org.apache.cxf.version>
+        <org.apache.cxf.version>3.1.0</org.apache.cxf.version>
         <org.mybatis.mybatis-spring.version>1.2.1</org.mybatis.mybatis-spring.version>
         <com.google.guava.version>18.0</com.google.guava.version>
         <com.google.code.gson.version>2.2.4</com.google.code.gson.version>

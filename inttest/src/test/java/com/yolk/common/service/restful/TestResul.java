@@ -6,12 +6,6 @@ package com.yolk.common.service.restful;
  */
 
 public interface TestResul {
-//
-//    @GET
-//    @Path("/testrestful/{id}")
-//    @Produces({ MediaType.APPLICATION_XML })
-//    String helloWorld(@PathParam("id") String id);
-
 
     String helloWorld();
 }

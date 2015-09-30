@@ -1,43 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--~
-  ~ Yztz.com Inc.
-  ~ Copyright (c) 2013-2015 All Rights Reserved.
-  ~
-  -->
-
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctx="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <ctx:property-placeholder location="classpath:test-jdbc.properties,classpath:test-system.properties"/>
+    <bean id="testRest" class="org.yolk.common.service.restful.TestRestful" />
 
-    <import resource="dao-boot.xml"/>
-    <import resource="integration-boot.xml"/>
-    <import resource="biz-boot.xml"/>
-    <import resource="facade-boot.xml"/>
-
-    <bean id="exceptionlistener" class="com.yztz.common.message.CustomerException"/>
-    <bean id="customerConverter" class="com.yztz.common.message.CustomerConverter"/>
-    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
-        <property name="brokerURL" value="${jms.server.urlbroker}"/>
-    </bean>
-
-    <bean id="pooledConnectionFactory"
-          class="org.apache.activemq.pool.PooledConnectionFactory">
-        <constructor-arg ref="connectionFactory" />
-        <property name="maximumActive" value="20"/>
-    </bean>
-
-    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
-        <property name="connectionFactory" ref="pooledConnectionFactory"/>
-        <property name="deliveryMode" value="2"/>
-        <property name="timeToLive" value="0"/>
-        <property name="explicitQosEnabled" value="true"/>
-        <property name="messageConverter" ref="customerConverter"/>
-    </bean>
-
-    <bean id="jmsProducer" class="com.yztz.common.message.JmsProducer">
-        <property name="jmsTemplate" ref="jmsTemplate"/>
-    </bean>
-
+    <jaxrs:server id="fooBarWs" address="http://localhost:9999">
+        <jaxrs:serviceBeans>
+            <ref bean="testRest" />
+        </jaxrs:serviceBeans>
+    </jaxrs:server>
 </beans>

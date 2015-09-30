@@ -8,7 +8,6 @@ package org.yolk.common.schedule.impl;
 import org.quartz.SchedulerException;
 import org.quartz.Trigger;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
-import org.yolk.common.schedule.ScheduleTask;
 import org.yolk.common.schedule.TaskScheduler;
 import org.yolk.common.schedule.util.TaskSchedulerUtil;
 
@@ -22,11 +21,6 @@ public class TaskSchedulerImpl extends SchedulerFactoryBean implements TaskSched
     public TaskSchedulerImpl() {
         setQuartzProperties(TaskSchedulerUtil.getDefaultProperties());
         setTriggers(new Trigger[0]);
-    }
-
-    // TODO
-    public void scheduleTask(ScheduleTask task) {
-
     }
 
     @Override
