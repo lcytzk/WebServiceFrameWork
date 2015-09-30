@@ -1,4 +1,4 @@
-package com.yolk.common.service;
+package com.yolk.common.service.soap;
 
 import javax.jws.WebService;
 
