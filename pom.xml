@@ -56,17 +56,22 @@
         <dependencies>
             <dependency>
                 <groupId>org.yolk</groupId>
-                <artifactId>facade-release</artifactId>
-                <version>1.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.yolk</groupId>
-                <artifactId>facade</artifactId>
-                <version>1.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.yolk</groupId>
                 <artifactId>common</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yolk</groupId>
+                <artifactId>taskservice</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yolk</groupId>
+                <artifactId>unittest</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yolk</groupId>
+                <artifactId>inttest</artifactId>
                 <version>1.0</version>
             </dependency>
 

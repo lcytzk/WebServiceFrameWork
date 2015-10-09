@@ -1,0 +1,1 @@
+mvn idea:clean && mvn idea:idea
